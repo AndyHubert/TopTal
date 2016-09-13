@@ -7,8 +7,8 @@
 ## Installation
 
 ```sh
-cd frontend && npm install
-cd ../backend && npm install
+frontend$ npm install
+backend$ npm install
 ```
 
 ## Running
@@ -24,8 +24,14 @@ frontend$ npm start
 ## Seeds and Tests
 
 ```sh
-cd backend
-npm test
+backend$ npm test
 ```
 
-Note that the username:password "Peter:pw" is an Admin level user from the seeds file, opening full app functionality. 
+Note: that the username:password "Peter:pw" is an Admin level user from the seeds file, opening full app functionality.
+
+Note: To avoid an error when running tests, change line 10 of /backend/node_modules/json2mongo/node_modules/bson/ext/index.js to the following:
+
+```js
+bson = require('bson');
+```
+ 
