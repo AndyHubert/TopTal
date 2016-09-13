@@ -24,11 +24,13 @@
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
+    "bson": "^0.5.4",
     "chai": "^3.5.0",
     "debug": "~2.2.0",
     "json2mongo": "^1.0.1",
     "mocha": "^3.0.2",
     "mongo-seed": "^0.4.4",
-    "nodemon": "^1.10.2"
+    "nodemon": "^1.10.2",
+    "underscore": "^1.8.3"
   }
 }
