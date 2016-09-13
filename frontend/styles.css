@@ -1,0 +1,63 @@
+body {
+    padding-top: 20px;
+}
+.box {
+    padding: 10px;
+    border: 1px solid #CCC;
+    background: #EEE;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.boxrow {
+    margin: 5px 0;
+}
+h4 {
+    margin-top: 25px;
+}
+c-logged-in {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 20px;
+    display: block;
+}
+c-user-chooser {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDD;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    display: block;
+}
+.form-control {
+	width: auto;
+	display: inline-block;
+}
+c-meals-filter {
+    border-left: 3px solid #DDD;
+    margin: 20px 0;
+    padding: 5px 10px;
+    display: block;
+}
+.error {
+    color: white;
+    background: red;
+    padding: 10px;
+    display: inline-block;
+}
+.error:empty {
+    display: none;
+}
+.loader {
+  	border: 20px solid #f3f3f3;
+	border-top: 20px solid #3498db;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	animation: spin 1s linear infinite;
+    position: fixed;
+    top: 40px;
+    right: 50px;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
